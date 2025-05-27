@@ -29,7 +29,8 @@ export GOOGLE_API_KEY="PASTE_YOUR_ACTUAL_API_KEY_HERE"
 export GOOGLE_GENAI_USE_VERTEXAI=FALSE
 ```
 
-> ⚠️Note: You can get an API key in [Google AI Studio](https://aistudio.google.com/apikey).
+> [!IMPORTANT] 
+> You can get an API key in [Google AI Studio](https://aistudio.google.com/apikey).
 > Be sure to replace `"PASTE_YOUR_ACTUAL_API_KEY_HERE"` above, with the value of the key.
 
 # Running the agent
@@ -113,4 +114,5 @@ Here's a screenshot of the Dev UI in action for your `HelloWeatherAgent` agent:
 
 ---
 
-> Note: This template project is not an official Google Project 
+> [!NOTE]  
+> This template project is not an official Google Project 
