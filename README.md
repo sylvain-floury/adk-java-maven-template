@@ -54,6 +54,9 @@ The `HelloWeatherAgent` class is a simple agent configured with one tool to requ
 When running the above command, you should see a similar output like the one below.
 Type `quit` to exit the agent conversation.
 
+<details>
+<summary>Expand to see the output</summary>
+
 ```
 [INFO] Scanning for projects...
 [INFO] 
@@ -97,6 +100,8 @@ You > quit
 [INFO] Finished at: 2025-05-27T11:07:54+02:00
 [INFO] ------------------------------------------------------------------------
 ```
+
+</details>
 
 ## Running the agent from the Dev UI
 
