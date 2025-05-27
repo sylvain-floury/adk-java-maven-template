@@ -21,12 +21,12 @@ To use Gemini (or other supported models), you must set up the right environment
 Set up the following environment variables:
 
 ```shell
-export GOOGLE_API_KEY=<<PASTE_YOUR_ACTUAL_API_KEY_HERE>>
+export GOOGLE_API_KEY="PASTE_YOUR_ACTUAL_API_KEY_HERE"
 export GOOGLE_GENAI_USE_VERTEXAI=FALSE
 ```
 
 > ⚠️Note: You can get an API key in [Google AI Studio](https://aistudio.google.com/apikey).
-> Be sure to replace `<<PASTE_YOUR_ACTUAL_API_KEY_HERE>>` above, with the value of the key.
+> Be sure to replace `"PASTE_YOUR_ACTUAL_API_KEY_HERE"` above, with the value of the key.
 
 # Running the agent
 
