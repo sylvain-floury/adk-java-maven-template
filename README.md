@@ -12,11 +12,10 @@ The following screenshot of the GitHub interface shows how you can use this temp
 
 ![](use-template.png)
 
-Check out the GitHub [documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
-about forking and cloning template projects.
-
 > [!TIP]
-> Be sure to read the [ADK documentation](https://google.github.io/adk-docs/get-started/quickstart/#set-up-the-model) 
+> * Check out the GitHub [documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+> about forking and cloning template projects.
+> * Be sure to read the [ADK documentation](https://google.github.io/adk-docs/get-started/quickstart/#set-up-the-model) 
 > to better understand how the framework works.
 
 # Setup
