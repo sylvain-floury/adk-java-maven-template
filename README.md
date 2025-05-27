@@ -15,8 +15,9 @@ The following screenshot of the GitHub interface shows how you can use this temp
 Check out the GitHub [documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 about forking and cloning template projects.
 
-Be sure to read the [ADK documentation](https://google.github.io/adk-docs/get-started/quickstart/#set-up-the-model) 
-to better understand how the framework works.
+> [!TIP]
+> Be sure to read the [ADK documentation](https://google.github.io/adk-docs/get-started/quickstart/#set-up-the-model) 
+> to better understand how the framework works.
 
 # Setup
 
@@ -29,8 +30,10 @@ export GOOGLE_API_KEY="PASTE_YOUR_ACTUAL_API_KEY_HERE"
 export GOOGLE_GENAI_USE_VERTEXAI=FALSE
 ```
 
-> [!IMPORTANT] 
+> [!TIP]
 > You can get an API key in [Google AI Studio](https://aistudio.google.com/apikey).
+
+> [!IMPORTANT]
 > Be sure to replace `"PASTE_YOUR_ACTUAL_API_KEY_HERE"` above, with the value of the key.
 
 # Running the agent
@@ -115,4 +118,4 @@ Here's a screenshot of the Dev UI in action for your `HelloWeatherAgent` agent:
 ---
 
 > [!NOTE]  
-> This template project is not an official Google Project 
+> This template project is not an official Google project 
