@@ -23,6 +23,7 @@ import com.google.adk.runner.InMemoryRunner;
 import com.google.adk.sessions.Session;
 import com.google.adk.tools.Annotations.Schema;
 import com.google.adk.tools.FunctionTool;
+import com.google.adk.web.AdkWebServer;
 import com.google.genai.types.Content;
 import com.google.genai.types.Part;
 import io.reactivex.rxjava3.core.Flowable;
@@ -42,9 +43,9 @@ public class HelloWeatherAgent {
             .instruction("""
                 You are a friendly assistant, answering questions in a concise manner.
                 
-                When asked about weather information, you MUST use the `getWeather` function.
+                When asked about the weather forecast, you MUST use the `getWeather` function.
                 """)
-            .model("gemini-2.0-flash")
+            .model("gemini-2.5-flash")
             .tools(FunctionTool.create(HelloWeatherAgent.class, "getWeather"))
             .build();
     }
@@ -59,6 +60,13 @@ public class HelloWeatherAgent {
     }
 
     public static void main(String[] args) {
+        // Run your agent with the ADK Dev UI
+
+//        AdkWebServer.start(ROOT_AGENT);
+
+        // Run your agent from the command-line
+        // with your own run event loop
+
         RunConfig runConfig = RunConfig.builder().build();
         InMemoryRunner runner = new InMemoryRunner(ROOT_AGENT);
 
