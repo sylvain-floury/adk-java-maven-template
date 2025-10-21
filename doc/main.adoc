@@ -1,0 +1,16 @@
+
+Get API key from https://aistudio.google.com/api-keys
+
+[source, bash]
+----
+$ export GOOGLE_API_KEY="AI...5a8"
+$ mvn compile
+$ mvn compile exec:java -Dexec.mainClass=com.example.agent.HelloWeatherAgent\n
+$ mvn compile exec:java -Dexec.mainClass=com.example.agent.ScienceTeacher\n
+$ mvn compile exec:java -Dexec.mainClass=com.example.agent.StockTicker\n
+$ mvn compile exec:java -Dexec.mainClass=com.example.agent.LatestNews\n
+$ mvn compile exec:java -Dexec.mainClass=com.example.agent.SearchAgentAsTool
+$ mvn compile exec:java -Dexec.mainClass=com.example.agent.PoetAndTranslator
+$ mvn compile exec:java -Dexec.mainClass=com.example.agent.CompanyDetective\n
+$ mvn compile exec:java -Dexec.mainClass=com.example.agent.CodeRefiner
+----
